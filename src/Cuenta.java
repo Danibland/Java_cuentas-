@@ -7,6 +7,13 @@ public class Cuenta {
 
 	private Cliente titular = new Cliente();
 	private static int total=0;
+
+	public static int getTotal() {
+		return Cuenta.total;
+	}
+	public static void setTotal(int total) {
+		Cuenta.total = total;
+	}
 	public Cuenta(int agencia) {
 
 		

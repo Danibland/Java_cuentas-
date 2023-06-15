@@ -6,6 +6,8 @@ public class Prueba_constructor {
 		Cuenta Cuenta2 = new Cuenta(456);
 		Cuenta Cuenta3 = new Cuenta(2);
 		
+		System.out.println(cuenta.getTotal());
+		
 		
 	}
 
